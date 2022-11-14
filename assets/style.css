@@ -96,3 +96,8 @@ img {
     max-width: 80vw;
     min-width: 40vw;
 }
+
+p {
+    font-size: larger;
+    font-weight: bold;
+}

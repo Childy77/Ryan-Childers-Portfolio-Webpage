@@ -57,7 +57,9 @@ header h1 {
     max-width: 80vw;
     min-width: 41vw;
 }
-
+.cards:hover {
+    -webkit-filter: blur(2px);
+}
 .top-work {
     /* position: absolute; */
     /* top: 40pc; */
@@ -76,14 +78,12 @@ header h1 {
 
 .main-content p {}
 
-.lower-content {
-    text-align: center;
-    background-color: purple
-}
+
 
 footer {
     text-align: center;
     background-color: blue;
+    color: white;
 }
 
 .headshot {
@@ -100,4 +100,12 @@ img {
 p {
     font-size: 25px;
     font-weight: bold;
+}
+
+.bottom-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(red, purple);
 }

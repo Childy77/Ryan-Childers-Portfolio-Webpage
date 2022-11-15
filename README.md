@@ -11,3 +11,7 @@
 -I tried to make it accesable to mobile devices.
 
 -I have extra selectors in CSS to later make changes when needed.
+
+-I created hover affects over the images.
+
+-
